@@ -51,6 +51,9 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+# Rust ignore list
 lib/lookUpTableGenerator/target/
-
 *.lock
+
+# Ignoring build folder for example project
+example/build/*
