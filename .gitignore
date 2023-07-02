@@ -55,5 +55,7 @@ dkms.conf
 lib/lookUpTableGenerator/target/
 *.lock
 
-# Ignoring build folder for example project
+# Ignoring build folder for all projects
+build/*
 example/build/*
+lib/eprint/build/*
